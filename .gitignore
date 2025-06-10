@@ -42,6 +42,9 @@ coverage/
 *.swo
 *~
 
+# Package tarballs
+*.tgz
+
 # Optional npm cache directory
 .npm
 
