@@ -1,6 +1,6 @@
 {
   "name": "animflow",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A lightweight, high-performance animation library for creating smooth, responsive web animations",
   "main": "dist/js/AnimFlow.main.js",
   "style": "dist/css/AnimFlow.css",
@@ -29,7 +29,7 @@
     "svg-animation",
     "responsive"
   ],
-  "author": "AnimFlowOrg",
+  "author": "AnimFlow-Org",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AnimFlow-Org/animflow/issues"
