@@ -56,29 +56,19 @@
         }
     };
 
-    // SVG Optimizer for better performance
+    // SVG Optimizer for better performance (Temporarily Disabled)
     const SVGOptimizer = {
         pathCache: new WeakMap(),
         
-        optimizePath(path) {
-            if (this.pathCache.has(path)) {
-                return this.pathCache.get(path);
-            }
-
-            const length = path.getTotalLength();
-            path.style.strokeDasharray = length;
-            path.style.strokeDashoffset = length;
-            
-            this.pathCache.set(path, length);
-            return length;
+        optimizePath() {
+            // SVG functionality temporarily disabled
+            return 0;
         },
 
-        animatePath(path, duration, easing) {
-            const length = this.optimizePath(path);
-            path.style.transition = `stroke-dashoffset ${duration}ms ${easing}`;
-            path.style.strokeDashoffset = '0';
+        animatePath() {
+            // SVG functionality temporarily disabled
         }
-    };
+    }
 
     // Virtual Scroll Manager
     const VirtualScroller = {

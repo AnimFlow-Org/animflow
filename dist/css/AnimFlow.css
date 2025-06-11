@@ -158,13 +158,15 @@
     }
 }
 
-/* SVG Optimizations */
+/* SVG Optimizations (Temporarily Disabled) */
+/*
 [data-anim="draw-path"] path {
     stroke-dasharray: var(--path-length, 1000);
     stroke-dashoffset: var(--path-length, 1000);
     transition: stroke-dashoffset var(--anim-duration) var(--anim-timing) var(--anim-delay);
     transform: translate3d(0, 0, 0);
 }
+*/
 
 /* Wide Screen Optimizations */
 @media screen and (min-width: 1200px) {

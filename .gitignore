@@ -49,5 +49,10 @@ coverage/
 .npm
 
 # Optional eslint cache
+
+# Custom ignored files and directories
+test/
+dist/js/AnimFlow.svg.js
+dist/css/svg-animations.css
 .eslintcache
 .eslintcache.json

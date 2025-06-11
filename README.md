@@ -12,7 +12,6 @@ A powerful, lightweight animation library for creating high-performance web anim
 
 ### Animation Features
 - **Multiple Effects**: 10+ built-in animation effects
-- **SVG Animation**: Advanced SVG path drawing with optimization
 - **Sequence Animations**: Create choreographed animation sequences
 - **Synchronized Animations**: Coordinate multiple animations together
 - **Custom Timing**: Control animation duration and easing per element
@@ -196,7 +195,6 @@ const animFlow = new AnimFlow({
 - `slide-right`: Slide in from right
 - `scale-in`: Scale up smoothly
 - `scale-bounce`: Scale up with bounce effect
-- `draw-path`: SVG path drawing animation
 - `parallax`: Smooth parallax scrolling effect
 - `fade-up`: Fade in with upward movement
 - `rotate-in`: Rotate and scale in
@@ -272,7 +270,7 @@ When performance mode is active, AnimFlow processes animations in batches to mai
 ```javascript
 const animFlow = new AnimFlow({
     performanceMode: 'auto',
-    batchSize: 10 // Process 10 animations at a time
+    batchSize: 10
 });
 ```
 
@@ -286,7 +284,7 @@ Different animation patterns for grouped elements:
 
 ```html
 <div data-anim-group="cards" data-anim-mode="sequence">
-    <!-- Group elements -->
+    
 </div>
 ```
 

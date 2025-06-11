@@ -495,6 +495,26 @@ svg {
     }
 }
 
+/* SVG Animation (Temporarily Disabled)
+[data-anim*="draw-path"] {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: drawPath 2s ease-in-out forwards;
+}
+*/
+
+@keyframes drawPath {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes drawPath {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
 .roll-out {
     animation: rollOut 1s ease-in-out forwards
 }
